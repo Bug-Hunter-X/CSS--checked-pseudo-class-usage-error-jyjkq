@@ -1,0 +1,1 @@
+The following CSS code uses the `:checked` pseudo-class incorrectly to style a label based on the checked state of its associated checkbox.  The selector is directly applied to the label, which is not how the :checked pseudo-class works.  It must be used in conjunction with the general sibling combinator (+) to target elements adjacent to a checked checkbox.
