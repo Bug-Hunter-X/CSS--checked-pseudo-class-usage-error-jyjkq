@@ -1,0 +1,13 @@
+/* Corrected CSS */
+input[type="checkbox"] { /* Styling for checkbox itself */
+  display: none;  /* hide checkbox visually */
+}
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 5px 10px; /*Example Padding*/
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label {
+  background-color: lightgreen; /* Style when checked */
+  color: white;
+}
